@@ -1,0 +1,19 @@
+{
+  "name": "pager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Pager.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rossencho/pager.git"
+  },
+  "author": "Rosen Blagoev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rossencho/pager/issues"
+  },
+  "homepage": "https://github.com/rossencho/pager#readme"
+}

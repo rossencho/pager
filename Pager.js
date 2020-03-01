@@ -52,14 +52,14 @@ Pager.prototype.goToPage = function(pageNum) {
 
 
 var pager = new Pager([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20], 3);
-console.log(pager.firstPage());
+pager.firstPage();
 console.log(pager.visibleItems);
 
-console.log(pager.nextPage());
+pager.nextPage();
 console.log(pager.visibleItems);
-console.log(pager.nextPage());
+pager.nextPage();
 console.log(pager.visibleItems);
-console.log(pager.prevPage());
+pager.prevPage();
 console.log(pager.visibleItems);
-console.log(pager.goToPage(3));
+pager.goToPage(3);
 console.log(pager.visibleItems);
